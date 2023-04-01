@@ -14,10 +14,14 @@
   - Escolher de qual API deseja gerar as figurinhas
   - Informar texto da figurinha
   - Escolher cor do texto
+- GET da minha própria API de linguagens
 
 ## 🛠️ Tecnologias utilizadas
 - Java 18
 - VS Code
+- Spring Boot
+- Postman
+- MongoDB
 
 ## 📒 Conteúdos da Imersão
 **Aula 1**: consumir a API do IMDb e exibir os filmes mais populares, destacando os seus pôsteres e visualizando a sua classificação sem usar nenhuma biblioteca externa.
@@ -26,7 +30,7 @@
 
 **Aula 3**: ligando as pontas, refatoração e orientação a objetos
 
-**Aula 4**:
+**Aula 4**: criando minha própria API com Spring
 
 **Aula 5**:
 
@@ -40,8 +44,9 @@
  - [X] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.
  - [X] Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.
  - [X] Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
-
-
+ - [X] Finalizar o CRUD
+ - [X] Ordenar listagem por ranking
+ 
 ## 📸 Screenshots
 📌 Saída de dados com texto colorido e negrito
 
