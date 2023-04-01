@@ -1,3 +1,4 @@
+
 <div align="center">
   <h1>Projeto Alura Stickers</h1>
   <p>Projeto criado durante a Imersão Java da Alura.🤿 <br>
@@ -23,7 +24,7 @@
 
 **Aula 2**: criar um gerador de figurinhas explorando bibliotecas nativas do Java como java.awt, javax.imageio e java.io.
 
-**Aula 3**:
+**Aula 3**: ligando as pontas, refatoração e orientação a objetos
 
 **Aula 4**:
 
@@ -35,9 +36,11 @@
  - [X] Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
  - [X] Centralizar o texto na figurinha.
  - [X] Colocar contorno (outline) no texto da imagem.
+ - [X] Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.
+ - [X] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.
+ - [X] Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.
+ - [X] Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
 
-## OBS: 
-- Utilizar o comando chcp 65001 no terminal para visualizar as estrelas do rating.
 
 ## 📸 Screenshots
 📌 Saída de dados com texto colorido e negrito
@@ -47,3 +50,6 @@
 
 - GET dos filmes mais populares do IMDb:
 ![print-terminal v2](https://user-images.githubusercontent.com/81244208/228258701-dff42139-6000-4119-94fd-6af44f95742d.JPG)
+
+- Figurinhas no Whatsapp
+![print-whatsapp](https://user-images.githubusercontent.com/81244208/229259719-122fed6c-75fa-4d9b-bb77-d878f48a6179.JPG)
