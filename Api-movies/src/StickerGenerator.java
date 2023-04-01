@@ -32,7 +32,7 @@ public class StickerGenerator {
 
         //fonte 
         graphics.setColor(Color.YELLOW);
-        Font font = new Font("Impact", Font.BOLD, 70);
+        Font font = new Font("Impact", Font.BOLD, 110);
         graphics.setFont(font);
 
         // escrever frase na imagem

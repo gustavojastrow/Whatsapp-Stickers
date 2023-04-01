@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
@@ -13,8 +12,8 @@ public class App {
     // Api api = Api.NASA;
     // String url = api.getUrl();
 
-    System.out.println("Top 5 filmes IMDB\n");
-    Api api = Api.IMDB_TOP_MOVIES;
+    System.out.println("Filmes populares\n");
+    Api api = Api.IMDB_POPULARES_MOVIES;
     ContentExtractor contentExtractor = api.getContentExtractor();
     ClientHttp httpClient = new ClientHttp();
     String bodyString = httpClient.dateSearch(api.getUrl());
@@ -26,7 +25,7 @@ public class App {
 
 
 
-    for(int i=0; i < 5; i++){
+    for(int i=0; i < 10; i++){
 
       Content content = conteudos.get(i);
 
