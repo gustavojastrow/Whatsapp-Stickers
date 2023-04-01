@@ -51,5 +51,5 @@
 - GET dos filmes mais populares do IMDb:
 ![print-terminal v2](https://user-images.githubusercontent.com/81244208/228258701-dff42139-6000-4119-94fd-6af44f95742d.JPG)
 
-- Figurinhas no Whatsapp!
-[print-whatsapp](https://user-images.githubusercontent.com/81244208/229259719-122fed6c-75fa-4d9b-bb77-d878f48a6179.JPG)
+- Figurinhas no Whatsapp
+![print-whatsapp](https://user-images.githubusercontent.com/81244208/229259719-122fed6c-75fa-4d9b-bb77-d878f48a6179.JPG)
