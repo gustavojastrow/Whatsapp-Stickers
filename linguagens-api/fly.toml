@@ -1,0 +1,29 @@
+# fly.toml file generated for api-de-linguagens on 2023-04-02T11:57:02-03:00
+
+app = "api-de-linguagens"
+kill_signal = "SIGINT"
+kill_timeout = 5
+mounts = []
+primary_region = "gig"
+processes = []
+
+[build]
+  image = "gustavojastrow/linguagens-api:latest"
+
+[[services]]
+  internal_port = 8080
+  processes = ["app"]
+  protocol = "tcp"
+  [services.concurrency]
+    hard_limit = 25
+    soft_limit = 20
+    type = "connections"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
