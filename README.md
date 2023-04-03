@@ -14,7 +14,7 @@
   - Escolher de qual API deseja gerar as figurinhas
   - Informar texto da figurinha
   - Escolher cor do texto
-- GET da minha própria API de linguagens
+- GET da minha própria API de linguagens de programação desenvolvida com o Spring
 
 ## 🛠️ Tecnologias utilizadas
 - Java 18
@@ -22,6 +22,8 @@
 - Spring Boot
 - Postman
 - MongoDB
+- Docker
+- Fly.io
 
 ## 📒 Conteúdos da Imersão
 **Aula 1**: consumir a API do IMDb e exibir os filmes mais populares, destacando os seus pôsteres e visualizando a sua classificação sem usar nenhuma biblioteca externa.
@@ -32,7 +34,8 @@
 
 **Aula 4**: criando minha própria API com Spring
 
-**Aula 5**:
+**Aula 5**: publicando api no cloud
+api : https://api-linguagens.fly.dev/linguagens
 
 ## 🎯 Desafios cumpridos
  - [X] Consumir o endpoint de filmes mais populares, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.
@@ -58,3 +61,7 @@
 
 - Figurinhas no Whatsapp
 ![print-whatsapp](https://user-images.githubusercontent.com/81244208/229259719-122fed6c-75fa-4d9b-bb77-d878f48a6179.JPG)
+![sticker-generator](https://user-images.githubusercontent.com/81244208/229504445-c56afe34-dd58-46c7-8655-e3ac05baa48b.JPG)
+
+- Crud Spring
+![CRUD](https://user-images.githubusercontent.com/81244208/229504500-b4452c31-bead-4fbc-91cc-939a9a9ae3fa.JPG)
