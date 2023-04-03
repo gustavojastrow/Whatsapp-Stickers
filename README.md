@@ -10,6 +10,7 @@
 ## ⚙ Funcionalidades
 - GET dos Top 250 filmes do IMDb
 - GET dos filmes mais populares
+- GET api da NASA
 - Gerador de figurinhas personalizadas
   - Escolher de qual API deseja gerar as figurinhas
   - Informar texto da figurinha
