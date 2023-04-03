@@ -31,8 +31,8 @@ public class StickerGenerator {
         graphics.drawImage(imagemOriginal, null, 0, 0);
 
         //fonte 
-        graphics.setColor(Color.YELLOW);
-        Font font = new Font("Impact", Font.BOLD, 110);
+        graphics.setColor(Color.cyan);
+        Font font = new Font("Impact", Font.BOLD, 70);
         graphics.setFont(font);
 
         // escrever frase na imagem
@@ -53,14 +53,14 @@ public class StickerGenerator {
         transform.translate(xTexto, yTexto);
         graphics.setTransform(transform);
 
-        var outlineStroke = new BasicStroke(largura * 0.002f);
+        var outlineStroke = new BasicStroke(largura * 0.010f);
         graphics.setStroke(outlineStroke);
 
         graphics.setColor(Color.BLACK);
         graphics.draw(outline);
         graphics.setClip(outline);
 
-        //Desafio 1 - Aula 2: Criar diretório de saída se este ainda não existe
+        // Aula 2: Criar diretório de saída se este ainda não existe
         if (!new File("figurinhas").exists()) {
         new File("figurinhas").mkdir();
         }

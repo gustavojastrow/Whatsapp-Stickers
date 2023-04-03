@@ -2,32 +2,26 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
 
-
-
 public class App {
   public static void main (String[] args) throws Exception {
     
-    // API NASA
-    // System.out.println("5 Imagens NASA\n");
-    // Api api = Api.NASA;
-    // String url = api.getUrl();
+    // Consultar API.java para visualizar as apis disponíveis
 
-    System.out.println("Filmes populares\n");
-    Api api = Api.IMDB_POPULARES_MOVIES;
+    System.out.println("\n Top 5 melhores linguagens de programação! \n");
+    Api api = Api.LINGUAGENS;
+
     ContentExtractor contentExtractor = api.getContentExtractor();
     ClientHttp httpClient = new ClientHttp();
     String bodyString = httpClient.dateSearch(api.getUrl());
   
     // Exibir e manipular dados
-    List<Content> conteudos = contentExtractor.extractContent(bodyString);
+    List<Content> contents = contentExtractor.extractContent(bodyString);
 
     var generator = new StickerGenerator();
 
+    for(int i=0; i < 5; i++){
 
-
-    for(int i=0; i < 3; i++){
-
-      Content content = conteudos.get(i);
+      Content content = contents.get(i);
 
       InputStream inputStream = new URL(content.imageUrl()).openStream();
       String nomeArquivo = content.title() + ".png";
