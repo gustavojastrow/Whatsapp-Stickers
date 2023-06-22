@@ -5,7 +5,6 @@
   Desenvolvido com por Gustavo Jastrow.</p>
 </div>
 
-# 🛠️ Projeto em Desensolvimento
 
 ## ⚙ Funcionalidades
 - GET dos Top 250 filmes do IMDb
