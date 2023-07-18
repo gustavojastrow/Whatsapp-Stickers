@@ -2,7 +2,7 @@
 <div align="center">
   <h1>Projeto Alura Stickers</h1>
   <p>Projeto criado durante a Imersão Java da Alura.🤿 <br>
-  Desenvolvido com por Gustavo Jastrow.</p>
+  Desenvolvido por Gustavo Jastrow.</p>
 </div>
 
 
